@@ -1,0 +1,18 @@
+.active{
+    background-color: silver;
+}
+a{
+    color: #fff;
+}
+ul{
+    float: right;
+    margin-top: 5px;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 10px;
+}
+.navbar-brand{
+    float: left;
+}

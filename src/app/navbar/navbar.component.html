@@ -1,0 +1,17 @@
+<div id="navbar-component" class="bg-info">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-12 ">
+                <nav class="">
+                <a class="navbar-brand" routerLink="/">VirtualDars</a>
+                <ul>
+                    <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><a routerLink="">Asosiy</a></li>
+                    <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><a routerLink="/darslar">Darslar</a></li>
+                    <li routerLinkActive="active"><a [routerLink]="['/darslar',2,'Web API']" [queryParams]="{page: 1, order: 'desc'}">Web API</a></li>
+                    <li routerLinkActive="active"><a routerLink="/contactForm">Bog'lanish</a></li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
